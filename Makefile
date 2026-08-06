@@ -1,6 +1,6 @@
 BUILD_VERSION ?= "unknown"
 
-OUTPUT_NAME := tool-name
+OUTPUT_NAME := github-helper
 MODULE_NAME := $(shell go list -m)
 
 clean:
